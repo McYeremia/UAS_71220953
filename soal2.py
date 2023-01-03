@@ -5,7 +5,7 @@ t = turtle.Turtle()
 
 turtle.bgcolor("pink")
 t.pensize(3)
-t.speed(5)
+t.speed(15)
 
 t.penup()
 t.goto(-10,-100)
@@ -84,15 +84,11 @@ t.pendown()
 t.forward(5)
 
 t.penup()
-t.goto(10,50)
+t.goto(20,70)
 t.pendown()
 t.pencolor('red')
-for i in range(5):
-    t.left(25)
-    t.forward(50)
-    t.right(120)
+for i in range(11):
     t.forward(60)
-    t.right(130)
-    t.forward(60)
+    t.right(108)
 
 turtle.exitonclick()
